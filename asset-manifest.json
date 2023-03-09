@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/React-it-kamasutra/static/css/main.073c9b0a.css",
-    "main.js": "/React-it-kamasutra/static/js/main.bedf6183.js",
+    "main.css": "/React-it-kamasutra/static/css/main.0936b06c.css",
+    "main.js": "/React-it-kamasutra/static/js/main.501b6d73.js",
     "static/js/787.0a10f886.chunk.js": "/React-it-kamasutra/static/js/787.0a10f886.chunk.js",
+    "static/media/google_button.png": "/React-it-kamasutra/static/media/google_button.ba94402307dab3d9e2f0.png",
+    "static/media/6.gif": "/React-it-kamasutra/static/media/6.865b752f64bfb5e2345f.gif",
+    "static/media/MessageTone.mp3": "/React-it-kamasutra/static/media/MessageTone.71875f38f16101cf915c.mp3",
+    "static/media/imageGallery.png": "/React-it-kamasutra/static/media/imageGallery.6efc1d3040f2b00bf278.png",
+    "static/media/search.png": "/React-it-kamasutra/static/media/search.bbf2dec15d518049563b.png",
     "index.html": "/React-it-kamasutra/index.html",
-    "main.073c9b0a.css.map": "/React-it-kamasutra/static/css/main.073c9b0a.css.map",
-    "main.bedf6183.js.map": "/React-it-kamasutra/static/js/main.bedf6183.js.map",
+    "main.0936b06c.css.map": "/React-it-kamasutra/static/css/main.0936b06c.css.map",
+    "main.501b6d73.js.map": "/React-it-kamasutra/static/js/main.501b6d73.js.map",
     "787.0a10f886.chunk.js.map": "/React-it-kamasutra/static/js/787.0a10f886.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bedf6183.js"
+    "static/css/main.0936b06c.css",
+    "static/js/main.501b6d73.js"
   ]
 }
