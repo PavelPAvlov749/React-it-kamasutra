@@ -1,0 +1,213 @@
+.newPostContainer {
+
+    text-align: center;
+    width: 100%;
+    max-width: 900px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.newPostModal {
+    position: relative;
+    border: 1px solid rgb(65, 64, 64);
+    border-radius: 5px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 70%;
+    height: max-content;
+    margin: 0% auto;
+    min-height: 300px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.newPostModal h1 {
+    font-weight: 500;
+}
+
+.imgContainer {
+    width: max-content;
+    height: max-content;
+
+}
+
+.step2 {
+    position: relative;
+    transform: translateX(-150%);
+    animation: step2 1s forwards;
+
+}
+
+@keyframes step2 {
+    0% {
+        transform: translatex(-150%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.showNext {
+    transform: translateX(-150%);
+    animation: next 1.5s forwards;
+    color: rgb(31, 62, 147);
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+@keyframes next {
+    0% {
+        transform: translateX(-150%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.disableNext {
+    display: none;
+}
+
+.step2 input {
+    width: 40%;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+}
+
+.step2 input:focus {
+    outline-width: 0;
+    width: 70%;
+}
+
+.imgIcon {
+    vertical-align: middle;
+    margin-top: calc(30vh - 100px);
+    width: 100px;
+    height: 100px;
+
+}
+
+.newPostIMG {
+    object-fit: cover;
+    margin-bottom: 2rem;
+    padding: 0%;
+    display: inline-block;
+    max-height: 400px;
+    max-width: 100%;
+
+}
+
+.newPostContainer button {
+
+    /* margin-top: 3rem; */
+
+    border: none;
+    height: 2rem;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 62, 147);
+}
+
+
+.stepBack {
+    margin-top: 5rem;
+    color: rgb(31, 62, 147);
+}
+
+.publish:active {
+    background-color: rgb(16, 31, 72);
+    height: 2rem + 2px;
+}
+
+.publish:disabled {
+    background-color: rgb(76, 85, 109);
+}
+
+.cancelNewPost {
+    margin-top: 1rem;
+    display: inline;
+    border: none;
+    height: 2rem;
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 62, 147);
+}
+
+.cancelNewPost:active {
+    background-color: rgb(16, 31, 72);
+    height: 2rem + 2px;
+}
+
+@media(max-width : 550px) {
+    .newPostContainer {
+        height: calc(100% - 2rem);
+    }
+
+    .Next {
+        position:fixed;
+        bottom: 2.2rem;
+        left: 25%;
+        margin-top: 1rem;
+        display: inline;
+        border: none;
+        height: 2rem;
+        
+        border-radius: 5px;
+        color: white;
+        background-color: rgb(31, 62, 147);
+    }
+
+    .newPostModal {
+        width: 100%;
+        padding: 0px;
+        border: none;
+        text-align: center;
+        overflow-x: hidden;
+        transform: translateX(+100%);
+        animation: transform 0.7s forwards;
+        height: 100%;
+
+    }
+
+    @keyframes transform {
+        0% {
+            transform: translateX(+100%);
+
+        }
+
+        100% {
+            transform: translateX(0%);
+        }
+    }
+
+   .cancelNewPost{
+    position:fixed;
+    bottom: 0;
+    left: 25%;
+    margin-top: 1rem;
+    display: inline;
+    border: none;
+    height: 2rem;
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(31, 62, 147);
+   }
+
+    .newPostIMG {
+        object-fit: cover;
+        margin: 0%;
+        padding: 0%;
+        display: inline-block;
+        max-height: 400px;
+        position: relative;
+        overflow-x: hidden;
+        width: 100%;
+    }
+}

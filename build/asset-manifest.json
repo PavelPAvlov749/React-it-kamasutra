@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-it-kamasutra/static/css/main.073c9b0a.css",
+    "main.js": "/React-it-kamasutra/static/js/main.bedf6183.js",
+    "static/js/787.0a10f886.chunk.js": "/React-it-kamasutra/static/js/787.0a10f886.chunk.js",
+    "index.html": "/React-it-kamasutra/index.html",
+    "main.073c9b0a.css.map": "/React-it-kamasutra/static/css/main.073c9b0a.css.map",
+    "main.bedf6183.js.map": "/React-it-kamasutra/static/js/main.bedf6183.js.map",
+    "787.0a10f886.chunk.js.map": "/React-it-kamasutra/static/js/787.0a10f886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bedf6183.js"
+  ]
+}
